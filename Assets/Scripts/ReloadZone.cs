@@ -27,6 +27,8 @@ public class ReloadZone : MonoBehaviour
     [SerializeField] private float blinkInterval = 0.3f;
 
     [SerializeField] private GameObject objectToDisable;
+    [SerializeField] private GameObject wallToDisable;
+    [SerializeField] private GameObject wall2ToDisable;
 
     private bool gameOver = false;
     private Coroutine blinkCoroutine;
@@ -121,6 +123,8 @@ public class ReloadZone : MonoBehaviour
         if (loseBackground != null) loseBackground.SetActive(true);
         if (loseText != null) loseText.gameObject.SetActive(true);
         if (objectToDisable != null) objectToDisable.SetActive(false);
+        if (wallToDisable != null) wallToDisable.SetActive(false);
+        if (wall2ToDisable != null) wall2ToDisable.SetActive(false);
     }
 
     private void ReloadScene()
