@@ -1,3 +1,0 @@
-Build path: A:/MY GAMES/Trallalero-Trallala/Build/Build/Build/Build
-Build number: 17
-PluginYG version: 2.0032

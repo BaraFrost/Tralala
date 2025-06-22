@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SettingsYG2
   m_EditorClassIdentifier: 
   Authorization:
-    playerPhotoSize: 2
+    playerPhotoSize: 1
     authorized: 1
     playerName: Player current
     uniqueID: 000
@@ -24,7 +24,7 @@ MonoBehaviour:
     languages:
       ru: 1
       en: 1
-      tr: 0
+      tr: 1
       az: 0
       be: 0
       he: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   InterstitialAdv:
     showFirstAdv: 1
     interAdvInterval: 60
-    postponeCallByFail: 1
+    postponeCallByFail: 0
     postponeCallTimer: 10
     labelAdvSimLabel: 0
   Leaderboards:
@@ -299,20 +299,20 @@ MonoBehaviour:
   Localization:
     setLanguageMod: 1
   Metrica:
-    enable: 1
-    metricaCounterID: 102716259
+    enable: 0
+    metricaCounterID: 0
     log: 1
     useYandexMetrica: 1
   RewardedAdv:
     rewardedAfterClosing: 1
-    skipInterAdvAfterReward: 1
+    skipInterAdvAfterReward: 0
     labelAdvSimLabel: 0
   Storage:
     saveLocal: 0
     saveCloud: 1
     flush: 0
   Basic:
-    platform: {fileID: 11400000, guid: c2a303d33a9fd394bae4c4b88b9a1c44, type: 2}
+    platform: {fileID: 0}
     autoApplySettings: 1
     autoPauseGame: 1
     editEventSystem: 1
@@ -324,15 +324,15 @@ MonoBehaviour:
     loadSceneIndex: 0
     simulationLoadScene: 0
   Simulation:
-    device: 1
+    device: 0
     language: ru
     advIntervalSimulation: 60
     durationAdv: 0.5
     loadAdv: 0
     testFailAds: 0
   Templates:
-    logoImageFormat: 1
-    backgroundImgFormat: 4
+    logoImageFormat: 0
+    backgroundImgFormat: 0
     gradientBackgroundByLoadGame:
       radial: 0
       angleInclination: 140
