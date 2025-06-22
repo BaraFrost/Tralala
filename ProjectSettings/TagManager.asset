@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball1
+  - Ball2
+  - Ball3
+  - Ball4
+  - Ball5
+  - Enemy
+  - Ball6
+  - Ball7
+  - Ball8
+  - Ball9
+  - Ball10
+  - Dot
+  - ScoreText
+  - HighScoreText
+  - Ball11
+  - Ball12
+  - Ball13
+  - Ball14
+  - Ball15
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ball
+  - Water
+  - UI
+  - Wall
+  - ScreenEdge
+  - Spawner
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
